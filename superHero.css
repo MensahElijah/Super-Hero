@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    background-color: darkolivegreen;
+}
+
+.body{
+    background-color: rgb(146, 144, 144);
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 30em;
+    height: 100%;
+    flex-direction: column;
+    margin-left: 25em;
+    margin-bottom: 25em;
+    border-block-style: solid;
+    border-block-color: pink;
+    border-block-width: 10px;
+    border-style: dotted;
+}
+
+h2{
+    color: wheat;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    margin-bottom: 15px;
+    height: 25px;
+    width: 10em;
+    font-size: 25px;
+    background-color: rgb(234, 240, 240);
+}
+
+input:hover{
+    background-color: rgb(190, 62, 126);
+}
+
+#searchButton{
+    height: 35px;
+    width: 80px;
+    font-size: 20px;
+    color: rgb(73, 73, 73);
+    background-color: rgb(91, 91, 252);
+    border-radius: 10px;
+    outline: black;
+}
+
+#searchButton:hover{
+    color: brown;
+    background-color: darkcyan;
+    
+}
+
+#newHeroButton{
+    height: 35px;
+    width: 200px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(73, 73, 73);
+    background-color: goldenrod;
+    border-radius: 10px;
+    outline: black;
+    color: black;
+}
+
+#newHeroButton:hover{
+    color: brown;
+    background-color: darkcyan;
+    
+}
+
+#heroImage{
+    display: flex;
+    flex-direction: column;
+   color: wheat;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+
+.info{
+    font-style: italic;
+}
+
+
+
+
+
